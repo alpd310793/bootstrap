@@ -1,0 +1,18 @@
+#parrafos {
+    text-align: justify;
+    column-count: 1;
+    background-color: rgba(187, 111, 170, 0.169);
+    margin-bottom: 2px;
+}
+
+.list-group-item a {
+ 
+    color: rgb(187, 111, 170); /* Hereda el color del texto de su contenedor */
+  }
+
+@media (min-width: 768px) {
+    #parrafos {
+        column-count: 3;
+    }
+}
+
