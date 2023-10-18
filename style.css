@@ -1,22 +1,11 @@
-#parrafos {
-    text-align: justify;
-    column-count: 1;
-    background-color: rgba(187, 111, 170, 0.169);
-    margin-bottom: 2px;
+
+
+
+.col-lg-8 {
+    column-count: 3; /* Divide el contenido en tres columnas */
+    text-align: justify; /* Justifica el texto dentro de las columnas */
+    column-gap: 20px; /* Espacio entre columnas, puedes ajustarlo según tus preferencias */
+    margin-bottom: 5px;
+    background-color: rgba(187, 111, 170, 0.264);
 }
 
-.list-group-item a {
- 
-    color: rgb(187, 111, 170); /* Hereda el color del texto de su contenedor */
-  }
-
-@media (min-width: 768px) {
-    #parrafos {
-        column-count: 3;
-    }
-}
-
-
-.col-m-8 p {
-    background-color: blanchedalmond;
-}
